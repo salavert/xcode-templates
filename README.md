@@ -5,7 +5,7 @@ Xcode’s allow you to pre-fill the contents of new files and project so that yo
 You only need to clone this repository as follows:
 
 ```
-git clone https://github.com/salavert/xcode-templates.git ~/Library/Developer/Xcode/Templates
+cd ~/Library/Developer/Xcode/Templates && git clone https://github.com/salavert/xcode-templates.git
 ```
 
 ## Templates
