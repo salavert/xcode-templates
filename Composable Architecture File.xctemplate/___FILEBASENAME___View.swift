@@ -1,6 +1,4 @@
 import ComposableArchitecture
-import MisticaCommon
-import MisticaSwiftUI
 import SwiftUI
 
 @Reducer
@@ -45,7 +43,6 @@ public struct ___VARIABLE_productName:identifier___View: View {
 }
 
 #Preview {
-    MisticaConfig.brandStyle = .tu
     return ___VARIABLE_productName:identifier___View(
         store: Store(initialState: ___VARIABLE_productName:identifier___Feature.State()) {
             ___VARIABLE_productName:identifier___Feature()
